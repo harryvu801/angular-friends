@@ -2,6 +2,8 @@ angular.module('myApp').controller('FriendCtrl',function($scope) {
 
   $scope.test = 'Hello World';
 
+  $scope.filters = ['name', 'state','location', 'friend_count'];
+
   $scope.friends = [
     {
       name: 'Preston McNeil',
@@ -172,5 +174,7 @@ angular.module('myApp').controller('FriendCtrl',function($scope) {
     status: null,
     friend_count: 855
   }]
+
+
 
 });
